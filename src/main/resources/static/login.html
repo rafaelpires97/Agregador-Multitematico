@@ -1,0 +1,125 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Login Page</title>
+    <!--Made with love by Mutiullah Samim -->
+
+    <!--Custom styles-->
+    <link rel="stylesheet" type="text/css" href="main.css">
+    <style class="cp-pen-styles">body{
+        padding: 1.5em;
+        background: #fff;
+        background: whitesmoke;
+    }
+    .container-login {
+        width: 100%;
+        height: 100%;
+        right: 1000px;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    form{
+        margin: 0 auto;
+        width: 200px;
+    }
+
+    label{
+        display: block;
+        text-align: center;
+        line-height: 0%;
+        font-size: .85em;
+    }
+
+    h3{text-align: center}
+
+    .navbar-custom {
+        background-color: #B78A62;
+    }
+
+    .navbar-middle{
+        position: relative;
+        width: 150%;
+        text-align: center;
+        top: 7px;
+        left: 490px;
+    }
+    .login_btn{
+        background: #B78A62;
+    }
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Agregador Multitemático</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="" ><a href="index.html">Home</a></li>
+            <li class="">
+                <form class="form-inline navbar-middle">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
+<div class="container-login">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+            <div class="card-header">
+                <h3>Login</h3>
+            </div>
+            <div class="card-body">
+                <form>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email">
+
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-key"></i></span>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="row align-items-center remember">
+                        <div class="center">
+                            <input type="checkbox">Memorizar-me
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="center">
+                            <input type="submit" value="Login" class="btn float-right login_btn">
+
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="card-footer">
+                <div class="d-flex justify-content-center links">
+                    <div class="center"> Ainda não tem conta?<a href="register.html">Criar conta</a></div>
+                </div>
+                <div class="d-flex justify-content-center">
+                    <div class="center">
+                        <a href="#">Esqueceu a sua password?</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

@@ -1,0 +1,131 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register Page</title>
+    <!--Made with love by Mutiullah Samim -->
+    <!--Custom styles-->
+
+
+    <style class="cp-pen-styles">body{
+        padding: 1.5em;
+    }
+
+    .center{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        left: 400px;
+    }
+    form{
+        margin: 0 auto;
+        width: 200px;
+    }
+    label{
+        display: block;
+        text-align: center;
+        line-height: 0%;
+        font-size: .85em;
+    }
+
+    h3{text-align: center}
+
+    .navbar-custom {
+        background-color: #B78A62;
+    }
+
+    .navbar-middle{
+        position: relative;
+        width: 150%;
+        text-align: center;
+        top: 7px;
+        left: 500px;
+    }
+    .login_btn{
+        background: #B78A62;
+    }
+
+    </style>
+</head>
+<body>
+<nav class="navbar navbar-inverse navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+            <a class="navbar-brand" href="#">Agregador Multitemático</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class="" ><a href="index.html">Home</a></li>
+            <li class="">
+                <form class="form-inline navbar-middle">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container-login">
+    <div class="d-flex justify-content-center h-100">
+        <div class="card">
+
+            <div class="card-body">
+                <form>
+                    <div class="card-header registo">
+                        <h3>Registo</h3>
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Email">
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <div class="center">
+                                <span class="input-group-text"><i class="fas fa-key"></i></span>
+                            </div>
+                        </div>
+                        <input type="password" class="form-control" placeholder="Password">
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="input-group-prepend">
+                            <span class="input-group-text"><i class="fas fa-user"></i></span>
+                        </div>
+                        <input type="text" class="form-control" placeholder="Nome Completo">
+                    </div>
+                    <div class="input-group form-group">
+                        <label>Indique o seu sexo</label><br>
+                        <input type="radio" id="masculino" name="genero" value="masculino">
+                        <label for="masculino">Masculino</label><br>
+                        <input type="radio" id="feminino" name="genero" value="feminino">
+                        <label for="feminino">Feminino</label><br>
+                        <input type="radio" id="outro" name="genero" value="outro">
+                        <label for="outro">Outro</label>
+                    </div>
+                    <div class="input-group form-group">
+                        <div class="center">
+                            <label for="dtnascimento">Indique a sua data de nascimento</label><br>
+                        </div>
+                        <input type="date" id="dtnascimento" name="dtnascimento">
+                    </div>
+                    <div class="row align-items-center remember">
+                        <div class="center">
+                            <input type="checkbox">Li e aceito os <a href="#">Termos e Condicoes</a>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="center">
+                            <input type="submit" value="Registar" class="btn float-right login_btn">
+                        </div>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

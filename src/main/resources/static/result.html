@@ -1,0 +1,99 @@
+<link href="//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<script src="//netdna.bootstrapcdn.com/bootstrap/3.0.0/js/bootstrap.min.js"></script>
+<link href="css/result.css" rel="stylesheet"/>
+<!------ Include the above in your HEAD tag ---------->
+
+
+<!DOCTYPE html>
+<html class=''>
+<head>
+    <script src='//production-assets.codepen.io/assets/editor/live/console_runner-079c09a0e3b9ff743e39ee2d5637b9216b3545af0de366d4b9aad9dc87e26bfd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/events_runner-73716630c22bbc8cff4bd0f07b135f00a0bdc5d14629260c3ec49e5606f98fdd.js'></script>
+    <script src='//production-assets.codepen.io/assets/editor/live/css_live_reload_init-2c0dc5167d60a5af3ee189d570b1835129687ea2a61bee3513dee3a50c115a77.js'></script>
+    <meta charset='UTF-8'>
+    <meta name="robots" content="noindex">
+    <link rel="shortcut icon" type="image/x-icon"
+          href="//production-assets.codepen.io/assets/favicon/favicon-8ea04875e70c4b0bb41da869e81236e54394d63638a1ef12fa558a4a835f1164.ico"/>
+    <link rel="mask-icon" type=""
+          href="//production-assets.codepen.io/assets/favicon/logo-pin-f2d2b6d2c61838f7e76325261b7195c27224080bc099486ddd6dccb469b8e8e6.svg"
+          color="#111"/>
+    <link rel="canonical"
+          href="https://codepen.io/ahmetomer/pen/yzVmMO?depth=everything&order=popularity&page=47&q=shop&show_forks=false"/>
+    <script>
+        function myFunction() {
+            const temp = localStorage.getItem("search").toString();
+            document.getElementById("search").innerHTML = temp;
+        }
+    </script>
+    <title></title>
+</head>
+<body onload="myFunction()">
+<nav class="navbar navbar-inverse navbar-custom">
+    <div class="container-fluid">
+        <div class="navbar-header">
+
+            <a class="navbar-brand" href="#">Agregador Multitemático</a>
+        </div>
+        <ul class="nav navbar-nav">
+            <li class=""><a href="index.html">Home</a></li>
+            <li class="">
+                <form class="form-inline navbar-middle">
+                    <input class="form-control mr-sm-2" type="text" placeholder="Pesquisar" aria-label="Search">
+                </form>
+            </li>
+        </ul>
+        <ul class="nav navbar-nav navbar-right">
+            <li><a href="login.html"><span class="glyphicon glyphicon-user"></span></a></li>
+            <li><a href="#"><span class="glyphicon glyphicon-log-in"></span></a></li>
+        </ul>
+    </div>
+</nav>
+<h3 class="resultado">Pesquisas relacionadas com:<span id="search"></span></h3>
+<div class="container">
+    <div class="product">
+        <div class="img-container">
+            <img src="https://pix10.agoda.net/hotelImages/124/1246280/1246280_16061017110043391702.jpg?s=1024x768">
+        </div>
+        <div class="product-info">
+            <div class="product-content">
+                <h1>Hotel blabla</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ariatur</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit ametconsectetu.</li>
+                    <li>adipisicing elit dlanditiis quis ip.</li>
+                    <li>lorem sde glanditiis dars fao.</li>
+                </ul>
+                <div class="buttons">
+                    <a class="button buy" href="#">Reservar</a>
+                    <a class="button add" href="#">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="product">
+        <div class="img-container">
+            <img src="https://www.ahstatic.com/photos/9399_ho_00_p_1024x768.jpg">
+        </div>
+        <div class="product-info">
+            <div class="product-content">
+                <h1>Moradia ASD</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit ariatur</p>
+                <ul>
+                    <li>Lorem ipsum dolor sit ametconsectetu.</li>
+                    <li>adipisicing elit dlanditiis quis ip.</li>
+                    <li>lorem sde glanditiis dars fao.</li>
+                </ul>
+                <div class="buttons">
+                    <a class="button buy" href="#">Reservar</a>
+                    <a class="button add" href="#">Mais Informações</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <h3 class="resultado">Não há mais resultados para a sua pesquisa.</h3>
+
+</div>
+</body>
+</html>

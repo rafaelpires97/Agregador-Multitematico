@@ -1,0 +1,52 @@
+<?xml version="1.0"?>
+<rdf:RDF
+        xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+        xmlns:restaurante="http://example.org/schema/restaurante#"
+        xmlns:voo="http://example.org/schema/voo#"
+        xmlns:hotel="http://example.org/schema/hotel#"
+>
+
+    <rdf:Description
+            rdf:about="http://example.org/schema/restaurante/Comes&amp;Bebes">
+        <restaurante:cidade>Coimbra</restaurante:cidade>
+        <restaurante:nome>Comes &amp; Bebes</restaurante:nome>
+        <restaurante:rua>Rua dos Patrões</restaurante:rua>
+        <restaurante:codpostal>3000-308</restaurante:codpostal>
+        <restaurante:especialidade>Arroz de Berbigão</restaurante:especialidade>
+
+    </rdf:Description>
+
+    <rdf:Description
+            rdf:about="http://example.org/schema/restaurante/AHorta">
+        <restaurante:cidade>Lisoa</restaurante:cidade>
+        <restaurante:nome>A Horta</restaurante:nome>
+        <restaurante:rua>Avenica do Campo Grande</restaurante:rua>
+        <restaurante:codpostal>1000-369</restaurante:codpostal>
+        <restaurante:especialidade>Bacalhau com Natas</restaurante:especialidade>
+
+    </rdf:Description>
+
+    <rdf:Description
+            rdf:about="http://example.org/schema/voo/Voo236">
+        <voo:hora>18:30</voo:hora>
+        <voo:local>Aeroporto de Lisboa</voo:local>
+        <voo:numero>Voo nº 236</voo:numero>
+        <voo:lugar>Lugar 15</voo:lugar>
+        <voo:preco>45€</voo:preco>
+        <voo:classe>1ª Classe</voo:classe>
+
+    </rdf:Description>
+
+    <rdf:Description
+            rdf:about="http://example.org/schema/hotel/HotelMundial">
+        <hotel:cidade>Coimbra</hotel:cidade>
+        <hotel:nome>Hotel Mundial</hotel:nome>
+        <hotel:rua>Rua das Flores</hotel:rua>
+        <hotel:codpostal>3000-659</hotel:codpostal>
+        <hotel:preco>90€</hotel:preco>
+        <hotel:estrelas>4 Estrelas</hotel:estrelas>
+        <hotel:tipo>Suite</hotel:tipo>
+
+    </rdf:Description>
+
+</rdf:RDF>

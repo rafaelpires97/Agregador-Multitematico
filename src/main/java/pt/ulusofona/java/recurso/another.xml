@@ -1,0 +1,51 @@
+<?xml version="1.0"?>
+<class>
+    <restaurante>
+        <id>1</id>
+        <name>Comes &amp; Bebes</name>
+        <cidade>Coimbra</cidade>
+        <rua>Rua dos Patrões</rua>
+        <codpostal>3000-308</codpostal>
+        <especialidade>Arroz de Berbigão</especialidade>
+    </restaurante>
+
+    <hotel>
+        <id>1</id>
+        <name>Hotel Mundial</name>
+        <cidade>Coimbra</cidade>
+        <rua>Rua das Flores</rua>
+        <codpostal>3000-659</codpostal>
+        <preco>90</preco>
+        <estrelas>4</estrelas>
+        <tipo>Suite</tipo>
+    </hotel>
+
+    <voo>
+        <id>1</id>
+        <hora_partida>18h30</hora_partida>
+        <origem>Lisboa</origem>
+        <hora_chegada>22h30</hora_chegada>
+        <destino>Paris</destino>
+        <escalas>false</escalas>
+        <classe>1</classe>
+        <preco>150</preco>
+        <dia_partida>2020-06-25</dia_partida>
+        <dia_chegada>2020-06-25</dia_chegada>
+    </voo>
+
+
+    <voo>
+        <id>1</id>
+        <hora_partida>8h30</hora_partida>
+        <origem>Lisboa</origem>
+        <hora_chegada>10h30</hora_chegada>
+        <destino>Paris</destino>
+        <escalas>false</escalas>
+        <classe>1</classe>
+        <preco>150</preco>
+        <dia_partida>2020-06-25</dia_partida>
+        <dia_chegada>2020-06-25</dia_chegada>
+    </voo>
+
+
+</class>
